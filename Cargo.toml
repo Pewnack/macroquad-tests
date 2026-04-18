@@ -1,0 +1,11 @@
+[package]
+name = "macroquad-tests"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "0.4"
+
+[[bin]]
+name = "mouse"
+path = "src/bin/mouse.rs"
