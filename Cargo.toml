@@ -9,3 +9,7 @@ macroquad = "0.4"
 [[bin]]
 name = "mouse"
 path = "src/bin/mouse.rs"
+
+[[bin]]
+name = "keyboard"
+path = "src/bin/keyboard.rs"
