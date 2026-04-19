@@ -11,11 +11,18 @@ Each test is a standalone binary executable.
 | Binary | Description |
 |--------|-------------|
 | `mouse` | Shows current mouse coordinates centered in the window on a black background. |
+| `keyboard` | Displays currently pressed keys centered in the window; modifier keys (Shift, Ctrl, Alt, Super) are shown above in yellow, regular keys are shown in white. |
 
 Run the mouse test with:
 
 ```bash
 cargo run --bin mouse
+```
+
+Run the keyboard test with:
+
+```bash
+cargo run --bin keyboard
 ```
 
 ## Building All Tests
@@ -50,6 +57,7 @@ macroquad-tests/
 ├── .gitignore
 └── src/
     └── bin/
+        ├── keyboard.rs
         └── mouse.rs
 ```
 
