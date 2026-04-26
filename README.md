@@ -12,6 +12,7 @@ Each test is a standalone binary executable.
 |--------|-------------|
 | `mouse` | Shows current mouse coordinates centered in the window on a black background. |
 | `keyboard` | Displays currently pressed keys centered in the window; modifier keys (Shift, Ctrl, Alt, Super) are shown above in yellow, regular keys are shown in white. |
+| `sphere` | Draws a 3D sphere with a wireframe overlay; use the arrow keys to rotate the view around the sphere. |
 
 Run the mouse test with:
 
@@ -23,6 +24,12 @@ Run the keyboard test with:
 
 ```bash
 cargo run --bin keyboard
+```
+
+Run the sphere test with:
+
+```bash
+cargo run --bin sphere
 ```
 
 ## Building All Tests
@@ -58,7 +65,8 @@ macroquad-tests/
 └── src/
     └── bin/
         ├── keyboard.rs
-        └── mouse.rs
+        ├── mouse.rs
+        └── sphere.rs
 ```
 
 ## Adding New Tests

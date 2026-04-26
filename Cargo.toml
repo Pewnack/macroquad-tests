@@ -13,3 +13,7 @@ path = "src/bin/mouse.rs"
 [[bin]]
 name = "keyboard"
 path = "src/bin/keyboard.rs"
+
+[[bin]]
+name = "sphere"
+path = "src/bin/sphere.rs"
